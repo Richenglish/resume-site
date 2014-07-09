@@ -1,0 +1,43 @@
+/*** Variables *****/
+/*** Base *****/
+html {
+  height: 100%; }
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  height: 100%; }
+  body h1 {
+    font-size: 300%; }
+  body h5 {
+    font-weight: 200; }
+
+#page {
+  padding: 2%;
+  height: 100%; }
+
+.box {
+  border-radius: 10px;
+  border: 4px solid grey;
+  opacity: 0,9;
+  font-size: 200%;
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  overflow: hidden;
+  text-align: center; }
+  .box h2 {
+    padding: 20px; }
+
+#area-1 {
+  background-color: green; }
+
+#area-2 {
+  background-color: blue; }
+
+#area-3 {
+  background-color: red; }
+
+#key {
+  position: absolute;
+  bottom: 0;
+  width: 95%; }
