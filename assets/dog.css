@@ -20,6 +20,10 @@ h3 {
   font-size: 1.8em;
   padding-bottom: 10px; }
 
+h4 {
+  font-size: 1.4em;
+  padding-bottom: 5px; }
+
 #page {
   margin: 0px auto;
   width: 100%; }
@@ -69,8 +73,11 @@ h3 {
 #b-learn .in-box {
   background-color: #ddcd6d; }
 
-#b-foot .in-box {
+#b-goggle .in-box {
   background-color: #92b9a6; }
+
+#b-foot .in-box {
+  background-color: #bddbdb; }
 
 /* Small Screen */
 @media screen and (min-width: 600px) {
@@ -99,9 +106,14 @@ h3 {
   #b-map {
     float: left;
     width: 100%;
-    height: 300px; }
+    height: 350px; }
 
   #b-learn {
+    float: left;
+    width: 100%;
+    height: 200px; }
+
+  #b-goggle {
     float: left;
     width: 100%;
     height: 200px; }
@@ -109,9 +121,19 @@ h3 {
   #b-foot {
     float: left;
     width: 100%;
-    height: 100px; } }
+    height: 100px; }
+
+  #map-list div {
+    width: 33%;
+    float: right; } }
 /* Desktop */
 /* Big Screen */
+/**** Specifics  ****/
+#map-list {
+  padding-top: 10px; }
+  #map-list div {
+    padding-top: 20px; }
+
 /**** Content Page ****/
 .content-page {
   margin: 4% 12%; }
