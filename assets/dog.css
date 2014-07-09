@@ -1,0 +1,134 @@
+/*** Variables *****/
+/*** Mixins ***/
+/*** Base ****/
+body {
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  color: #5c5c5c;
+  font-size: 100%;
+  background-color: #f4f4f4; }
+
+h1 {
+  font-size: 3em;
+  padding-bottom: 10px; }
+
+h2 {
+  font-size: 2.6em;
+  padding-bottom: 10px; }
+
+h3 {
+  font-size: 1.8em;
+  padding-bottom: 10px; }
+
+#page {
+  margin: 0px auto;
+  width: 100%; }
+
+.box {
+  background-color: #f4f4f4;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+  .box p {
+    font-size: 120%;
+    padding-left: 10px;
+    padding-top: 10px; }
+  .box a {
+    text-decoration: none;
+    color: #5c5c5c; }
+  .box #tagline {
+    font-weight: 400;
+    text-align: center; }
+
+.in-box {
+  padding: 30px 20px 60px 20px;
+  height: 100%; }
+
+#b-head .in-box {
+  background-color: lightgrey; }
+
+#b-who .in-box {
+  background-color: #e5edd8; }
+
+#b-think .in-box {
+  background-color: #d0e1e1; }
+
+#b-map .in-box {
+  background-color: #d0d5bf; }
+
+#b-cloud .in-box {
+  background-color: #c6d8c8; }
+
+#b-git .in-box {
+  background-color: #c9ccc3; }
+
+#b-write .in-box {
+  background-color: #becdca; }
+
+#b-learn .in-box {
+  background-color: #ddcd6d; }
+
+#b-foot .in-box {
+  background-color: #92b9a6; }
+
+/* Small Screen */
+@media screen and (min-width: 600px) {
+  #page {
+    width: 90%; } }
+/* small 2 */
+@media screen and (min-width: 675px) {
+  .in-box {
+    margin: 10px; }
+
+  #b-who {
+    width: 50%;
+    float: left;
+    height: 400px; }
+
+  #b-think, #b-cloud {
+    width: 50%;
+    float: left;
+    height: 200px; }
+
+  #b-write, #b-git {
+    width: 50%;
+    height: 200px;
+    float: left; }
+
+  #b-map {
+    float: left;
+    width: 100%;
+    height: 300px; }
+
+  #b-learn {
+    float: left;
+    width: 100%;
+    height: 200px; }
+
+  #b-foot {
+    float: left;
+    width: 100%;
+    height: 100px; } }
+/* Desktop */
+/* Big Screen */
+/**** Content Page ****/
+.content-page {
+  margin: 4% 12%; }
+  .content-page p {
+    margin: 10px 0px 30px 0px; }
+  .content-page #cloud-image {
+    padding: 20px; }
+
+#who-right {
+  float: right;
+  text-align: center; }
+  #who-right p {
+    padding-top: 10px;
+    font-size: 1.5em;
+    line-height: 175%; }
+
+#profile-image {
+  width: 175px;
+  height: 175px;
+  background-color: grey; }
