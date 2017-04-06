@@ -21,7 +21,7 @@ $(function(){
 
 		//calculate Box sizes
 		
-		var winsize = 500;
+		var winsize = $('#goggle-main').height();
 
 		var wid1 = Math.sqrt(value1);
 		var wid2 = Math.sqrt(value2);
