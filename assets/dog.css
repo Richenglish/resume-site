@@ -3,7 +3,7 @@
 
 body {
 
-  font-size: 19px;
+  font-size: 21px;
   color: #5c5c5c;
   font-family: Lato, arial, sans-serif;
   background-color: #f4f4f4;
@@ -12,6 +12,9 @@ body {
 #page {
  
 
+}
+b {
+  color: black;
 }
 
 #main {
@@ -57,6 +60,7 @@ ul {
 }
 ul li {
   list-style-type: circle;
+  padding: 5px;
 
 }
 ol {
